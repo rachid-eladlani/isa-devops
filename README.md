@@ -13,14 +13,14 @@ A paper (extended abstract) describing this course is published in the "_First i
 ## Teaching Staff
 
   * [Philippe Collet](collet@i3s.unice.fr), Université Côte d'Azur, CNRS, I3S (co-head, ISA)
-  * [Guilhem Molines](Guilhem.Molines@unice.fr), IBM France Labs, Université Côte d'Azur (co-head, DOCT)
+  * [Guilhem Molines](Guilhem.Molines@unice.fr), IBM France Labs, Université Côte d'Azur (co-head, DEVOPS)
   * [Anne-Marie Pinna-Déry](pinna@unice.fr), Université Côte d'Azur, CNRS, I3S
   * TODO
 
 ### Specific pages (e.g., lectures material, deliverable contents)
 
-  * [Introduction to Software Architecture](https://github.com/mosser/isa-devops/tree/master/ISA/README.md)
-  * [DevOps & Continuous Testing](https://github.com/mosser/isa-devops/tree/master/DevOps/README.md)
+  * [Introduction to Software Architecture](https://github.com/collet/isa-devops/tree/master/ISA/README.md)
+  * [DevOps & Continuous Testing](https://github.com/collet/isa-devops/tree/master/DevOps/README.md)
 
 ### Case study description: 
 
