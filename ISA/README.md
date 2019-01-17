@@ -1,41 +1,42 @@
-# Introduction to Software Architecture (2017)
+# Introduction to Software Architecture (2018-19)
 
 ## Teaching Staff
 
-  * [Sébastien Mosser](mosser@i3s.unice.fr), Université Côte d'Azur, CNRS, I3S (co-head, ISA)
-  * [Anne-Marie Pinna-Déry](pinna@unice.fr), Université Côte d'Azur, CNRS, I3S
+  * [Philippe Collet](collet@i3s.unice.fr), Universit√© C√¥te d'Azur, CNRS, I3S (co-head, ISA)
+  * [Guilhem Molines](Guilhem.Molines@unice.fr), IBM France Labs, Universit√© C√¥te d'Azur (co-head, DEVOPS)
+  * [Anne-Marie Pinna-D√©ry](pinna@unice.fr), Universit√© C√¥te d'Azur, CNRS, I3S
 
 
 ## Lecture Material
 
   - Lecture #1: Introduction to ISA
-    - [#1.1: Kickoff](https://github.com/mosser/isa-devops/blob/master/ISA/01_1_kickoff.pdf)
-    - [#1.2: N-tiers Architectures](https://github.com/mosser/isa-devops/blob/master/ISA/01_2_Archi_N_Tiers.pdf)
-    - [#1.3: Architectural Viewpoints](https://github.com/mosser/isa-devops/blob/master/ISA/01_3_Viewpoints.pdf)
-    - [#1.4: Object-Relational Mapping](https://github.com/mosser/isa-devops/blob/master/ISA/01_4_ORM.pdf)
+    - [#1.1: Kickoff]
+    - [#1.2: N-tiers Architectures]
+    - [#1.3: Architectural Viewpoints]
+    - [#1.4: Object-Relational Mapping]
   - Lecture #2: Software Components
-    - [#2.1: Components as EJBs](https://github.com/mosser/isa-devops/blob/master/ISA/02_1_ejb101.pdf)
-    - [#2.2: Domain components (EJBs Session)](https://github.com/mosser/isa-devops/blob/master/ISA/02_2_ejb_session.pdf)
-  - Lecture #3: [Interoperability & Web Services](https://github.com/mosser/isa-devops/blob/master/ISA/03_services.pdf)
-  - Lecture #4: [Persistent Entities](https://github.com/mosser/isa-devops/blob/master/ISA/04_ejb_entities.pdf) 
-  - Lecture #5: [J2E++](https://github.com/mosser/isa-devops/blob/master/ISA/05_j2e_plus_plus.pdf) 
+    - [#2.1: Components as EJBs]
+    - [#2.2: Domain components (EJBs Session)]
+  - Lecture #3: [Interoperability & Web Services]
+  - Lecture #4: [Persistent Entities]
+  - Lecture #5: [J2E++]
 
 ### Examples of _good_ architecture reports (FR):
 
-  - 2015: The Cookie Factory. [Report #1](https://github.com/mosser/isa-devops/blob/master/ISA/reports_examples/2015_1.pdf), [Report #2](https://github.com/mosser/isa-devops/blob/master/ISA/reports_examples/2015_2.pdf)
-  - 2016: Isola 3000. [Report #1](https://github.com/mosser/isa-devops/blob/master/ISA/reports_examples/2016_1.pdf), [Report #2](https://github.com/mosser/isa-devops/blob/master/ISA/reports_examples/2016_2.pdf)
-  - 2017: Disloyalty card. [Report #1](https://github.com/mosser/isa-devops/blob/master/ISA/reports_examples/2017_1.pdf) [Report #2](https://github.com/mosser/isa-devops/blob/master/ISA/reports_examples/2017_2.pdf)
+  - 2015: The Cookie Factory. [Report #1](https://github.com/collet/isa-devops/blob/master/ISA/reports_examples/2015_1.pdf), [Report #2](https://github.com/collet/isa-devops/blob/master/ISA/reports_examples/2015_2.pdf)
+  - 2016: Isola 3000. [Report #1](https://github.com/collet/isa-devops/blob/master/ISA/reports_examples/2016_1.pdf), [Report #2](https://github.com/collet/isa-devops/blob/master/ISA/reports_examples/2016_2.pdf)
+  - 2017: Disloyalty card. [Report #1](https://github.com/collet/isa-devops/blob/master/ISA/reports_examples/2017_1.pdf) [Report #2](https://github.com/collet/isa-devops/blob/master/ISA/reports_examples/2017_2.pdf)
 
 ### Previous exams (FR)
 
-  - [2017](https://github.com/mosser/isa-devops/blob/master/ISA/exams/exam_2017.pdf)
-  - [2018](https://github.com/mosser/isa-devops/blob/master/ISA/exams/exam_2018.pdf)
+  - [2017](https://github.com/collet/isa-devops/blob/master/ISA/exams/exam_2017.pdf)
+  - [2018](https://github.com/collet/isa-devops/blob/master/ISA/exams/exam_2018.pdf)
 
 ## Deliverables
 
 ### Architecture Report
 
-You must deliver a PDF file at the root of your `main` repository on Mjøllnir, named `architecture.pdf`. There is no page limits but _concision_ is an evaluation criteria (and your report should be ~15 pages long). 
+You must deliver a PDF file at the root of your `main` repository on Github, named `architecture.pdf`. There is no page limits but _concision_ is an evaluation criteria (and your report should be ~15 pages long). 
 
 It must contain the following architecture description:
 
@@ -60,7 +61,7 @@ Non-exhaustive list of common pitfalls to avoid in your work:
 
 ### Final Project Delivery
 
-  - you need to deliver according to the instructions [here](https://github.com/mosser/isa-devops/blob/master/DevOps/README.md)
+  - you need to deliver according to the instructions [here](https://github.com/collet/isa-devops/blob/master/DevOps/README.md)
   - at the root, you should have a `components.pdf` file representing your component diagram
   - at the root, you should have a `archi.md` file representing your architecture report
-  - the deliverable for both ISA and DevOps will be extracting using [this script](https://github.com/mosser/isa-devops/blob/master/tools/deliver_polyevent.sh). Make sure your git repository tag is correct.
+  - the deliverable for both ISA and DevOps will be extracting using a specific script (soon available). Make sure your git repository tag is correct.
