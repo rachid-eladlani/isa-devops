@@ -3,8 +3,8 @@
 ## Teaching Staff
 
   * [Philippe Collet](collet@i3s.unice.fr), Université Côte d'Azur, CNRS, I3S (co-head, ISA)
-  * [Guilhem Molines](Guilhem.Molines@unice.fr), IBM France Labs, Université Côte d'Azur (co-head, DEVOPS)
   * [Anne-Marie Pinna-Déry](pinna@unice.fr), Université Côte d'Azur, CNRS, I3S
+  * [Laureen Ginier](tbd), IBM France Lab, Université Côte d'Azur
 
 
 ## Lecture Material

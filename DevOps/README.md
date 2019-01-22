@@ -2,8 +2,8 @@
 
 ## Teaching Staff
 
-  * [Philippe Collet](collet@i3s.unice.fr), Université Côte d'Azur, CNRS, I3S (co-head, ISA)
-  * [Guilhem Molines](Guilhem.Molines@unice.fr), IBM France Labs, Université Côte d'Azur (co-head, DEVOPS)
+  * [Guilhem Molines](Guilhem.Molines@unice.fr), IBM France Lab, Université Côte d'Azur (co-head, DevOps)
+  * [Salah Dahmoul](tbd), Orange, Université Côte d'Azur (DevOps)
 
 
 ## Lecture Material
