@@ -30,12 +30,7 @@ A paper (extended abstract) describing this course is published in the "_First i
 
 ## Planning 
 
-
-<html><div align="center"></html>
-
-to be completed
-
-<html></div></html>
+![Planning](https://github.com/collet/isa-devops/blob/master/planning.png)
 
   - Blue sessions are related to _ISA_
   - Green sessions are related to _DevOps_
