@@ -3,7 +3,7 @@
 ## Teaching Staff
 
   * [Guilhem Molines](guilhem.molines@univ-cotedazur.fr), IBM France Lab, Université Côte d'Azur (co-head, DevOps)
-  * [Salah Dahmoul](tbd), Orange, Université Côte d'Azur (DevOps)
+  * [Salah Dahmoul](Salah.DAHMOUL@univ-cotedazur.fr), Orange, Université Côte d'Azur (DevOps)
 
 
 ## Lecture Material

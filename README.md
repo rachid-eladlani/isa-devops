@@ -17,7 +17,7 @@ A paper (extended abstract) describing this course is published in the "_First i
   * [Guilhem Molines](guilhem.molines@univ-cotedazur.fr), IBM France Lab, Université Côte d'Azur (co-head, DevOps)
   * [Anne-Marie Pinna-Déry](pinna@unice.fr), Université Côte d'Azur, CNRS, I3S (ISA)
   * [Laureen Ginier](laureen.ginier@univ-cotedazur.fr), IBM France Lab, Université Côte d'Azur (ISA)
-  * [Salah Dahmoul](tbd), Orange, Université Côte d'Azur (DevOps)
+  * [Salah Dahmoul](Salah.DAHMOUL@univ-cotedazur.fr), Orange, Université Côte d'Azur (DevOps)
 
 ### Specific pages (e.g., lectures material, deliverable contents)
 
