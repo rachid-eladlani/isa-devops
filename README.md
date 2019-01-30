@@ -6,16 +6,17 @@ In this course, we will address the same case study under two different but comp
 
 The course is scheduled each Friday, during semester #8. The course requires to be fluent in Java, and a strong background in object-oriented programming. The case study is the same for the whole course, and requires a strong investment in software development by teams of four students. Splitting your team into two sub-teams, one for the architecture part and one for the devops one is __definitively not a winning strategy__ (been there, done that).
 
-The whole project relies on an open-source reference implementation of _The Cookie Factory_, a system to sell cookies to delighted customers: [https://github.com/polytechnice-si/4A_ISA_TheCookieFactory](https://github.com/polytechnice-si/4A_ISA_TheCookieFactory)
+The whole project relies on an open-source reference implementation of _The Cookie Factory_, a system to sell cookies to delighted customers, which will been made available to you within the Github classroom we'll be using for the exercices..
 
-A paper (extended abstract) describing this course is published in the "_First international workshop on software engineering aspects of continuous development and new paradigms of software production and deployment"_ (_aka_ [DevOps'18](https://www.laser-foundation.org/devops/2018/)), and available here: [devops_paper.pdf](https://github.com/mosser/isa-devops/blob/master/devops_paper.pdf).
+
+A paper (extended abstract) describing this course is published in the "_First international workshop on software engineering aspects of continuous development and new paradigms of software production and deployment"_ (_aka_ [DevOps'18](https://www.laser-foundation.org/devops/2018/)), and available here: [devops_paper.pdf](https://github.com/collet/isa-devops/blob/master/devops_paper.pdf).
 
 ## Teaching Staff
 
   * [Philippe Collet](collet@i3s.unice.fr), Université Côte d'Azur, CNRS, I3S (co-head, ISA)
-  * [Guilhem Molines](Guilhem.Molines@unice.fr), IBM France Lab, Université Côte d'Azur (co-head, DevOps)
+  * [Guilhem Molines](guilhem.molines@univ-cotedazur.fr), IBM France Lab, Université Côte d'Azur (co-head, DevOps)
   * [Anne-Marie Pinna-Déry](pinna@unice.fr), Université Côte d'Azur, CNRS, I3S (ISA)
-  * [Laureen Ginier](tbd), IBM France Lab, Université Côte d'Azur (ISA)
+  * [Laureen Ginier](laureen.ginier@univ-cotedazur.fr), IBM France Lab, Université Côte d'Azur (ISA)
   * [Salah Dahmoul](tbd), Orange, Université Côte d'Azur (DevOps)
 
 ### Specific pages (e.g., lectures material, deliverable contents)
