@@ -19,6 +19,11 @@
   - Lecture #7: Scaling
 
 
+## Assignment #1
+
+First Assignment requires you to compile and package the code base of The Cookie Factory. The code base is available [in this zip file](https://github.com/collet/isa-devops/blob/master/DevOps/TDs/tcf_td1.zip).
+
+
 ## Previous exams (FR)
 
   - [2016](https://github.com/collet/isa-devops/blob/master/DevOps/exams/examen2016.pdf)
