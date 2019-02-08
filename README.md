@@ -26,7 +26,7 @@ A paper (extended abstract) describing this course is published in the "_First i
 
 ### Case study description: 
 
-  * to be completed...
+  * [Poly'Diploma](https://github.com/collet/isa-devops/blob/master/PolyDiploma_ISA_DevOps.pdf)
 
 
 ## Planning 
