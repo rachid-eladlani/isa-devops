@@ -8,7 +8,7 @@
 
 ## Lecture Material
 
-  - Lecture #1: [DevOps Overview]
+  - Lecture #1: [DevOps Overview](https://github.com/collet/isa-devops/blob/master/DevOps/week1_overview_devops.pdf)
   - Lecture #2: [Architecture For Testing]
   - Lecture #3: [Functional & Integration Testing]
   - Lecture #4: Continuous Integration
