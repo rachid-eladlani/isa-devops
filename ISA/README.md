@@ -10,7 +10,7 @@
 ## Lecture Material
 
   - Lecture #1: Introduction to ISA
-    - [#1.1: Kickoff]
+    - [#1.1: Introduction]
     - [#1.2: N-tiers Architectures]
   - Lecture #2: Software Components and Persistence
 
@@ -30,13 +30,13 @@
 
 ### Architecture Report
 
-You must deliver a PDF file at the root of your `main` repository on Github, named `architecture.pdf`. There is no page limits but _concision_ is an evaluation criteria (and your report should be ~15 pages long). 
+You must deliver a PDF file at the root of your `main` repository on Github, named `architecture.pdf`. There is no page limits but _concision_ is an evaluation criteria (and your report should be ~15 pages long).
 
 It must contain the following architecture description:
 
   - Use cases diagrams;
   - Business objects definition as class diagram;
-    - Associated persistent schema and object-relational mapping definition; 
+    - Associated persistent schema and object-relational mapping definition;
   - Interfaces pseudo-code definition (_e.g._, Java like);
   - Components described by a component diagram;
   - Deployment of the defined components as a deployment diagram;
