@@ -12,14 +12,8 @@
   - Lecture #1: Introduction to ISA
     - [#1.1: Kickoff]
     - [#1.2: N-tiers Architectures]
-    - [#1.3: Architectural Viewpoints]
-    - [#1.4: Object-Relational Mapping]
-  - Lecture #2: Software Components
-    - [#2.1: Components as EJBs]
-    - [#2.2: Domain components (EJBs Session)]
-  - Lecture #3: [Interoperability & Web Services]
-  - Lecture #4: [Persistent Entities]
-  - Lecture #5: [J2E++]
+  - Lecture #2: Software Components and Persistence
+
 
 ### Examples of _good_ architecture reports (FR):
 
@@ -61,7 +55,7 @@ Non-exhaustive list of common pitfalls to avoid in your work:
 
 ### Final Project Delivery
 
-  - you need to deliver according to the instructions [here](https://github.com/collet/isa-devops/blob/master/DevOps/README.md)
+  - you need to deliver according to the instructions (TBD)
   - at the root, you should have a `components.pdf` file representing your component diagram
   - at the root, you should have a `archi.md` file representing your architecture report
   - the deliverable for both ISA and DevOps will be extracting using a specific script (soon available). Make sure your git repository tag is correct.
