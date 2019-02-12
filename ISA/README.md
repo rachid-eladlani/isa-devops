@@ -10,8 +10,8 @@
 ## Lecture Material
 
   - Lecture #1: Introduction to ISA
-    - [#1.1: Introduction]
-    - [#1.2: N-tiers Architectures]
+    - [#1.1: Introduction](https://github.com/collet/isa-devops/blob/master/ISA/week1_isa_intro_v0.1c.pdf)
+    - [#1.2: N-tiers Architectures](https://github.com/collet/isa-devops/blob/master/ISA/week1_isa_archi_n_tiers.pdf)
   - Lecture #2: Software Components and Persistence
 
 
