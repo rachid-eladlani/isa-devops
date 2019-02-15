@@ -12,7 +12,8 @@
   - Lecture #1: Introduction to ISA
     - [#1.1: Introduction](https://github.com/collet/isa-devops/blob/master/ISA/week1_isa_intro_v0.1c.pdf)
     - [#1.2: N-tiers Architectures](https://github.com/collet/isa-devops/blob/master/ISA/week1_isa_archi_n_tiers.pdf)
-  - Lecture #2: Software Components and Persistence
+  - Lecture #2: JavaEE, EJB 101 (Dependency Injection, Session and Entity), ORM 101
+    - [#2: EJB 101](https://github.com/collet/isa-devops/blob/master/ISA/week2-javaEE-ejb-orm-v02.pdf)
 
 
 ### Examples of _good_ architecture reports (FR):
