@@ -30,7 +30,7 @@
 
 ### Architecture Report
 
-You must deliver a PDF file at the root of your `main` repository on Github, named `architecture.pdf`. There is no page limits but _concision_ is an evaluation criteria (and your report should be ~10 pages long): *Monday 18th, February, 8:00pm*
+You must deliver a PDF file at the root of your `main` repository on Github, named `architecture.pdf`. There is no page limits but _concision_ is an evaluation criteria (and your report should be ~10 pages long): *Monday 25th, February, 8:00pm*
 
 It must contain the following architecture description:
 
