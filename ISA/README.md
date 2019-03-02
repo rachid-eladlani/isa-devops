@@ -14,7 +14,9 @@
     - [#1.2: N-tiers Architectures](https://github.com/collet/isa-devops/blob/master/ISA/week1_isa_archi_n_tiers.pdf)
   - Lecture #2: JavaEE, EJB 101 (Dependency Injection, Session and Entity), ORM 101
     - [#2: EJB 101](https://github.com/collet/isa-devops/blob/master/ISA/week2-javaEE-ejb-orm-v02.pdf)
-
+  - Lecture #3: Architectural viewpoints
+    - [#2.1: Architectural viewpoints - introduction](https://github.com/collet/isa-devops/blob/master/ISA/ViewpointsV2Intro-1.pdf)
+    - [#2.2: Architectural viewpoints - concepts](https://github.com/collet/isa-devops/blob/master/ISA/Viewpoints%20V2-1.pdf)
 
 ### Examples of _good_ architecture reports (FR):
 
