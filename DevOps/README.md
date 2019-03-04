@@ -9,14 +9,13 @@
 ## Lecture Material
 
   - Lecture #1: [DevOps Overview](https://github.com/collet/isa-devops/blob/master/DevOps/week1_overview_devops.pdf)
-  - Lecture #2: [Architecture For Testing]
-  - Lecture #3: [Functional & Integration Testing]
-  - Lecture #4: Continuous Integration
-    - 4.1: [Part one]
-    - 4.2: [Part two]
-  - Lecture #5: [Deployment]
-  - Lecture #6: [Software Containers]
-  - Lecture #7: Scaling
+  - Lecture #2: [Testing](https://github.com/collet/isa-devops/blob/master/DevOps/week2_testing_v0.2.pdf)
+  - Lecture #3: [Artifactory](https://github.com/collet/isa-devops/blob/master/DevOps/week3_software_factory_v0.4.pdf)
+  - Lecture #4: [Docker]
+  - Lecture #5: [Multi-plan CI]
+  - Lecture #6: [DevOps Dojo]
+  - Lecture #7: [Compose]
+  - Lecture #8: [Kubernetes]
 
 
 ## Assignment #1
