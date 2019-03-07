@@ -22,6 +22,14 @@
 
 First Assignment requires you to compile and package the code base of The Cookie Factory. The code base is available [in this zip file](https://github.com/collet/isa-devops/blob/master/DevOps/TDs/tcf_td1.zip).
 
+## Assignment #2
+Independant local compilation of two components
+
+## Assignment #3
+We'll use Artifactory to distribute the build. To run it:
+`docker run --name artifactory-5 -d -v /your/home/artifactory:/var/opt/jfrog/artifactory -p 8081:8081 docker.bintray.io/jfrog/artifactory-oss:latest`
+This will launch Artifactory as a background process, saving its data to the directory `/your/home/artifactory` so that the configuration is persisted between sessions.
+
 
 ## Previous exams (FR)
 
