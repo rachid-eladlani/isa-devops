@@ -11,11 +11,11 @@
   - Lecture #1: [DevOps Overview](https://github.com/collet/isa-devops/blob/master/DevOps/week1_overview_devops.pdf)
   - Lecture #2: [Testing](https://github.com/collet/isa-devops/blob/master/DevOps/week2_testing_v0.2.pdf)
   - Lecture #3: [Artifactory](https://github.com/collet/isa-devops/blob/master/DevOps/week3_software_factory_v0.4.pdf)
-  - Lecture #4: [Docker]
-  - Lecture #5: [Multi-plan CI]
-  - Lecture #6: [DevOps Dojo]
-  - Lecture #7: [Compose]
-  - Lecture #8: [Kubernetes]
+  - Lecture #4: Clarification on Build Orchestration [image 1](https://github.com/collet/isa-devops/blob/20190308_141426.jpg) [image 2](https://github.com/collet/isa-devops/blob/20190308_141431.jpg)
+  - Lecture #5: TBD
+  - Lecture #6: TBD
+  - Lecture #7: TBD
+  - Lecture #8: TBD
 
 
 ## Assignment #1
