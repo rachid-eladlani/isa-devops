@@ -27,8 +27,14 @@ Independant local compilation of two components
 
 ## Assignment #3
 We'll use Artifactory to distribute the build. To run it:
+
 `docker run --name artifactory-5 -d -v /your/home/artifactory:/var/opt/jfrog/artifactory -p 8081:8081 docker.bintray.io/jfrog/artifactory-oss:latest`
+
 This will launch Artifactory as a background process, saving its data to the directory `/your/home/artifactory` so that the configuration is persisted between sessions.
+
+For Jenkins, the magic command line is:
+
+`docker run -p 8080:8080 -p 50000:50000 -v /your/home/jenkins_blue_ocean:/var/jenkins_home jenkinsci/blueocean`
 
 
 ## Previous exams (FR)
