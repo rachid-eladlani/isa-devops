@@ -19,6 +19,7 @@
     - [#3.2: Architectural viewpoints - concepts](https://github.com/collet/isa-devops/blob/master/ISA/Viewpoints%20V2-1.pdf)
   - Lecture #4: From Client/Server to Web Services
     - [#4.1: Background on Protocols, Client/Serve, RMI and RPCs (french)](https://github.com/collet/isa-devops/blob/master/ISA/CS-RMI-RPC-Protocoles.pdf)
+    - [#4.2: Services and interoperability (french and english)](https://github.com/collet/isa-devops/blob/master/ISA/servicesEtInterope%CC%81rabilite%CC%8113mars.pdf)
 
 ### Examples of _good_ architecture reports (FR):
 
