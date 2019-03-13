@@ -1,7 +1,7 @@
 # First Demonstration
 
-  * Date: 30.03.18
-  * Examiners: Philippe Collet (PC), Guilhem Molines (GM), Sébastien Mosser (SM), Anne-Marie Pinna-Déry (AMD).
+  * Date: 22.03.19
+  * Examiners: Philippe Collet (PC), Laureen Ginier (LG), Guilhem Molines (GM), Anne-Marie Pinna-Déry (AMD),
 
 ## Planning
 
@@ -10,25 +10,25 @@
     * No slides;
     * Live demonstration (no video)
 
-| Timeslot      | E-105 (AMD, PC) | E-106 (SM, GM) |
+| Timeslot      | E+140 (??, ??) | E+142 (??, ??) |
 |---------------|---------|---------|
-| 09:00 - 09:30 | Team A  | Team D  | 
-| 09:30 - 10:00 | Team B  | Team C  | 
-| 10:00 - 10:30 | Team I  | Team J  | 
+| 09:00 - 09:30 | Team ?  | Team ?  | 
+| 09:30 - 10:00 | Team ?  | Team ?  | 
+| 10:00 - 10:30 | Team ?  | Team ?  | 
 
-| Timeslot      | E-105 (AMD, GM) | E-106 (SM, PC) |
+| Timeslot      | E+140 (??, ??) | E+142 (??, ??) |
 |---------------|---------|---------|
-| 10:45 - 11:15 | Team F  | Team E  | 
-| 11:15 - 11:45 | Team H  | Team G  | 
-| 11:45 - 12:15 | Team K  | Team L  | 
+| 10:45 - 11:15 | Team ?  | Team ?  | 
+| 11:15 - 11:45 | Team ?  | Team ?  | 
+| 11:45 - 12:15 | Team ?  | Team ?  | 
 
 
 ## Expectations
 
-You have to demonstrate a single product, covering both ISA & DevOps course contents. This single demo will be evaluated according to these two dimensions, leading to two different marks. *However*, the two courses expect the project to respect the _PolyEvent_ call for bids and implement features related to this project.
+You have to demonstrate a single product, covering both ISA & DevOps course contents. This single demo will be evaluated according to these two dimensions, leading to two different marks. *However*, the two courses expect the project to respect the _PolyDiploma_ call for bids and implement features related to this project.
 
-For ISA, the keypoint is to demonstrate a [Walking Skeleton](http://alistair.cockburn.us/Walking+skeleton) of the technical stack used to support PolyEvent. The system is triggered by an input entered by the user. It send the associated request (e.g., an event organisation request) to the J2E component backend, through a Web Service. Processing the request involves an interaction with a third-party service (e.g., HyperPlanning), simulated in .Net. A distributed demo is not mandatory for now, but the ability of the team to distribute the different components to different computers will be challenged during questions.
+### French version as published on the slack
 
-For DevOps, the keypoint is to demonstrate how you master _Continuous Integration_ (CI) for this project. You must be able to compile the project in a way that respect the dependencies among modules, relying on an artefact repository (ArtiFactory) to store the produced binaries. Thus, a developer can retrieve the compiled modules in the repository even if she does not have access to the source code of the module. A CI server is available to support the build process and artefact storage, through inter-dependent build plans. You must be ready to demonstrate what happen when a developer break the build (e.g., by committing code that makes a test fail).
+* Partie ISA pour le MVP nous attendons que vous dérouliez un scénario  sur la partie du coeur de l'application qui va d'un client vers un service externe minimum en passant par plusieurs composants EJBs si possible qui interagissent entre eux. Pour la partie techno vous pouvez avoir un client minimaliste qui se contente de récupérer les parametres des services et de les appeler et pour le service externe mocker un Service .net en partant du code de TCF. Si l'imlémentation .net vous pose trop de difficultés; attaquez au min le meme service externe que TCF.
 
-For both demonstration, think to also demonstrate error cases (e.g., third party service unavailable, network lost, broken test, corrupted JAR, ...) instead of staying in a perfect world.
+* Pour le MVP partie DevOps, on aimerait voir que chaque composant est peut être construit en ne connaissant que des binaires de ceux dont il dépend, et sans les sources. Binaires récupérés depuis une repository Artifactory. On voudrait voir que si on composant ne compile/test plus, le build des autres composants en aval n’est pas affecté. On voudrait aussi que les interfaces entre les composants soient testées. Enfin on voudrait voir la structure choisie pour les sources et leurs dépendances, et que vous expliquiez vos choix. Pour cette première soutenance, il n’est pas imposé de démontrer des plans de build dans Jenkins, cependant on accordera volontiers un bonus aux groupes qui y seront parvenus.
