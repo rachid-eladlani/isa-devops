@@ -56,10 +56,9 @@ Evaluation in 2017-2018 was organized as follow (update on its way):
     - Project (code + report): 20% 
     - Final exam: 40%
   - _DevOps & Continuous Testing_
-    - Mutation testing: 15 %
-	- Intermediate demonstration: 15%	
-	- Final presentation: 15%
-	- Project (code + report): 15%
+	- Intermediate demonstration: 20%	
+	- Final presentation: 20%
+	- Project (code + report): 20%
 	- Final exam: 40%
 
 
