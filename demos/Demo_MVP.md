@@ -9,19 +9,31 @@
     * 15 minutes for the team, 15 minutes from the jury;
     * No slides;
     * Live demonstration (no video)
+    
+  * The evaluation will take into account the fact that teams presenting in the afternoon have more time to produce and prepare their demo.
 
-| Timeslot      | E+140 (??, ??) | E+142 (??, ??) |
-|---------------|---------|---------|
-| 09:00 - 09:30 | Team ?  | Team ?  | 
-| 09:30 - 10:00 | Team ?  | Team ?  | 
-| 10:00 - 10:30 | Team ?  | Team ?  | 
+| Timeslot      | E+142   | 
+|---------------|---------|
+| 09:00 - 09:30 | Team A  | 
+| 09:30 - 10:00 | Team B  | 
+| 10:00 - 10:30 | Team C  | 
 
-| Timeslot      | E+140 (??, ??) | E+142 (??, ??) |
-|---------------|---------|---------|
-| 10:45 - 11:15 | Team ?  | Team ?  | 
-| 11:15 - 11:45 | Team ?  | Team ?  | 
-| 11:45 - 12:15 | Team ?  | Team ?  | 
+| Timeslot      | E+142   |
+|---------------|---------|
+| 10:45 - 11:15 | Team E  | 
+| 11:15 - 11:45 | Team D  |
+| 11:45 - 12:15 | Team F  |
 
+| Timeslot      | E+142   |
+|---------------|---------|
+| 14:00 - 14:30 | Team G  | 
+| 14:30 - 15:00 | Team H  |
+| 15:00 - 15:30 | Team I  |
+
+| Timeslot      | E+142   |
+|---------------|---------|
+| 15:45 - 16:15 | Team J  | 
+| 16:15 - 16:45 | Team K  |
 
 ## Expectations
 
