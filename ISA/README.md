@@ -20,6 +20,7 @@
   - Lecture #4: From Client/Server to Web Services
     - [#4.1: Background on Protocols, Client/Serve, RMI and RPCs (french)](https://github.com/collet/isa-devops/blob/master/ISA/CS-RMI-RPC-Protocoles.pdf)
     - [#4.2: Services and interoperability (french and english)](https://github.com/collet/isa-devops/blob/master/ISA/servicesEtInterope%CC%81rabilite%CC%8113mars.pdf)
+    - [#5: Persistence, JPA, and related tricks](https://github.com/collet/isa-devops/blob/master/ISA/week5-persistence-v02.pdf)
 
 ### Examples of _good_ architecture reports (FR):
 
