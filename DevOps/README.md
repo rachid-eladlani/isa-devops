@@ -13,7 +13,7 @@
   - Lecture #3: [Artifactory](https://github.com/collet/isa-devops/blob/master/DevOps/week3_software_factory_v0.4.pdf)
   - Lecture #4: Clarification on Build Orchestration [image 1](https://github.com/collet/isa-devops/blob/master/DevOps/20190308_141426.jpg) [image 2](https://github.com/collet/isa-devops/blob/master/DevOps/20190308_141431.jpg)
   - Lecture #5: [Deployment](https://github.com/collet/isa-devops/blob/master/DevOps/week7_deployment_v0.4.pdf)
-  - Lecture #6: TBD
+  - Lecture #6: [Containers](https://github.com/collet/isa-devops/blob/master/DevOps/week7_containers_v0.4.pdf)
   - Lecture #7: TBD
   - Lecture #8: TBD
 
