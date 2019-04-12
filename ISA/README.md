@@ -24,6 +24,8 @@
     - [#5: Persistence, JPA, and related tricks](https://github.com/collet/isa-devops/blob/master/ISA/week5-persistence-v02.pdf)
   - Lecture #6: Stateful and stateless session beans
     - [#6: State Wars](https://github.com/collet/isa-devops/blob/master/ISA/week6-stateWars.pdf)
+  - Lecture #7: Interceptors and MOM
+    - [#7: Interceptors and MOM](https://github.com/collet/isa-devops/blob/master/ISA/j2e_plus_plus.pdf)
 
 ### Examples of _good_ architecture reports (FR):
 
