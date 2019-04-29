@@ -44,7 +44,7 @@ For Jenkins, the magic command line is:
 
 ## Deliverables
 
-### Final release of the project (deadline: May 20th, 2019, 8pm)
+### Final release of the project (deadline: May 14th, 2019, 8pm)
 
 We will checkout your code in the main repository, with the git options to extract the tag `final_deliverable` and to follow sub-modules.
 
