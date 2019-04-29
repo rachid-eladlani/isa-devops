@@ -47,7 +47,7 @@ to be completed
 
 Even if the case study is shared and the course merged, this is administratively talking two different courses. As a consequence, the evaluation must be separated.
 
-Evaluation in 2017-2018 was organized as follow (update on its way):
+Evaluation is organized as follows:
 
   - _Introduction to Software Architecture_
     - Architecture report: 15%
