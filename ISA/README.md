@@ -40,7 +40,7 @@
 
 ## Deliverables
 
-### Architecture Report
+### Architecture Report (deadline: May 20th, 2019, 8pm)
 
 You must deliver a PDF file at the root of your `main` repository on Github, named `architecture.pdf`. There is no page limits but _concision_ is an evaluation criteria (and your report should be ~10 pages long): *Monday 25th, February, 8:00pm*
 
@@ -62,9 +62,9 @@ Non-exhaustive list of common pitfalls to avoid in your work:
   - Interfaces that relies on _ids_ and primitive objects (_e.g._, String, Integers) instead of business objects.
 
 
-### Final Project Delivery
+### Final Project Delivery (deadline: May 20th, 2019, 8pm)
 
-  - you need to deliver according to the instructions (TBD)
+  - you need to deliver according to the instructions of the DevOps part +
   - at the root, you should have a `components.pdf` file representing your component diagram
   - at the root, you should have a `archi.md` file representing your architecture report
-  - the deliverable for both ISA and DevOps will be extracting using a specific script (soon available). Make sure your git repository tag is correct.
+  - the deliverable for both ISA and DevOps will be extracting using a specific script. Make sure your git repository tag is correct (see DevOps part as well).
