@@ -49,16 +49,16 @@ Even if the case study is shared and the course merged, this is administratively
 
 Evaluation is organized as follows:
 
-  - _Introduction to Software Architecture_
+  - _Introduction to Software Architecture_ : https://github.com/collet/isa-devops/blob/master/ISA/README.md
     - Architecture report: 15%
     - Intermediate demonstration: 10%
     - Final presentation: 15%
-    - Project (code + report): 20% 
+    - Project (code + report): 20% (deadline: May 20th, 2019, 8pm)
     - Final exam: 40%
-  - _DevOps & Continuous Testing_
+  - _DevOps & Continuous Testing_ : https://github.com/collet/isa-devops/blob/master/DevOps/README.md
 	- Intermediate demonstration: 20%	
 	- Final presentation: 20%
-	- Project (code + report): 20%
+	- Project (code + report): 20% (deadline: May 20th, 2019, 8pm)
 	- Final exam: 40%
 
 
