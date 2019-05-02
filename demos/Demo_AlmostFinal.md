@@ -1,7 +1,7 @@
 # Second Demonstration
 
   * Date: 03.05.19
-  * Examiners: TBD.
+  * Examiners: Philippe Collet (PC), Laureen Ginier (LG), Guilhem Molines (GM), Anne-Marie Pinna-Déry (AMD), Salah Dahmoul (SD)
 
 ## Planning
 
@@ -10,7 +10,23 @@
     * No slides;
     * Live demonstration (no video)
 
-  * Planning: TBD
+  * Planning: 
+ 
+| Timeslot      | O+109 (PC, LG, GM, AMD, SD)  | 
+|---------------|---------|
+| 08:00 - 08:30 | Team J  | 
+| 08:30 - 09:00 | Team K  | 
+ 
+| Timeslot      | O+109 (LG, GM, SD) | O+110 (AMD, PC) |
+|---------------|---------|---------|
+| 09:15 - 09:45 | Team A  | Team F  | 
+| 09:45 - 10:15 | Team B  | Team G  | 
+
+| Timeslot      | O+109 (AMD, GM, SD) | O+110 (LG, PC) |
+|---------------|---------|---------|
+| 10:30 - 11:00 | Team C  | Team H  | 
+| 11:00 - 11:30 | Team E  | Team I  | 
+| 11:30 - 12:00 | Team D  |  | 
 
 
 ## Expectations
