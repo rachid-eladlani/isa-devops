@@ -7,7 +7,7 @@
 
   * Constraints: 
     * 15 minutes for the team, 15 minutes from the jury;
-    * No slides;
+    * No slide only (you may use one or several slides on a separate machine to facilitate the live demo)
     * Live demonstration (no video)
 
   * Planning: 
