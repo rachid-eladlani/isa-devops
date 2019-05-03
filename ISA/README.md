@@ -66,5 +66,9 @@ Non-exhaustive list of common pitfalls to avoid in your work:
 
   - you need to deliver according to the instructions of the DevOps part +
   - at the root, you should have a `components.pdf` file representing your component diagram
-  - at the root, you should have a `archi.md` file representing your architecture report
+  - at the root, you should have a `archi.md` file representing your architecture report:
+      - Overview: a paragraph on what is provided (how many CLIs, coverage of the functionalities, etc.)
+      - Components: additional explanations over the components organization as shown in `components.pdf`
+      - Pros: Strong points of your architecture
+      - Cons: Weak points of your architecture 
   - the deliverable for both ISA and DevOps will be extracting using a specific script. Make sure your git repository tag is correct (see DevOps part as well).
