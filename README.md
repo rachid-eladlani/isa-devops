@@ -1,4 +1,4 @@
-# Introduction to Software Architecture & DevOps (2018-19)
+# Introduction to Software Architecture & DevOps (2019-20)
 
 ## Rationale
 
@@ -7,9 +7,6 @@ In this course, we will address the same case study under two different but comp
 The course is scheduled each Friday, during semester #8. The course requires to be fluent in Java, and a strong background in object-oriented programming. The case study is the same for the whole course, and requires a strong investment in software development by teams of four students. Splitting your team into two sub-teams, one for the architecture part and one for the devops one is __definitively not a winning strategy__ (been there, done that).
 
 The whole project relies on an open-source reference implementation of _The Cookie Factory_, a system to sell cookies to delighted customers, which will been made available to you within the Github classroom we'll be using for the exercices..
-
-
-A paper (extended abstract) describing this course is published in the "_First international workshop on software engineering aspects of continuous development and new paradigms of software production and deployment"_ (_aka_ [DevOps'18](https://www.laser-foundation.org/devops/2018/)), and available here: [devops_paper.pdf](https://github.com/collet/isa-devops/blob/master/devops_paper.pdf).
 
 ## Teaching Staff
 
@@ -26,8 +23,7 @@ A paper (extended abstract) describing this course is published in the "_First i
 
 ### Case study description: 
 
-  * [Poly'Diploma](https://github.com/collet/isa-devops/blob/master/PolyDiploma_ISA_DevOps.pdf)
-
+  * to be completed
 
 ## Planning 
 
@@ -53,12 +49,12 @@ Evaluation is organized as follows:
     - Architecture report: 15%
     - Intermediate demonstration: 10%
     - Final presentation: 15%
-    - Project (code + report): 20% (deadline: May 14th, 2019, 8pm)
+    - Project (code + report): 20% (deadline: TBD)
     - Final exam: 40%
   - _DevOps & Continuous Testing_ : https://github.com/collet/isa-devops/blob/master/DevOps/README.md
 	- Intermediate demonstration: 20%	
 	- Final presentation: 20%
-	- Project (code + report): 20% (deadline: May 14th, 2019, 8pm)
+	- Project (code + report): 20% (deadline: TBD)
 	- Final exam: 40%
 
 
