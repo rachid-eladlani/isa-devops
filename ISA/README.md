@@ -10,22 +10,22 @@
 ## Lecture Material
 
   - Lecture #1: Introduction to ISA
-    - [#1.1: Introduction](https://github.com/collet/isa-devops/blob/master/ISA/week1_isa_intro_v0.1c.pdf)
-    - [#1.2: N-tiers Architectures](https://github.com/collet/isa-devops/blob/master/ISA/week1_isa_archi_n_tiers.pdf)
+    - [#1.1: Introduction]
+    - [#1.2: N-tiers Architectures]
   - Lecture #2: JavaEE, EJB 101 (Dependency Injection, Session and Entity), ORM 101
-    - [#2: EJB 101](https://github.com/collet/isa-devops/blob/master/ISA/week2-javaEE-ejb-orm-v02.pdf)
+    - [#2: EJB 101]
   - Lecture #3: Architectural viewpoints
-    - [#3.1: Architectural viewpoints - introduction](https://github.com/collet/isa-devops/blob/master/ISA/ViewpointsV2Intro-1.pdf)
-    - [#3.2: Architectural viewpoints - concepts](https://github.com/collet/isa-devops/blob/master/ISA/Viewpoints%20V2-1.pdf)
+    - [#3.1: Architectural viewpoints - introduction]
+    - [#3.2: Architectural viewpoints - concepts]
   - Lecture #4: From Client/Server to Web Services
-    - [#4.1: Background on Protocols, Client/Serve, RMI and RPCs (french)](https://github.com/collet/isa-devops/blob/master/ISA/CS-RMI-RPC-Protocoles.pdf)
-    - [#4.2: Services and interoperability (french and english)](https://github.com/collet/isa-devops/blob/master/ISA/servicesEtInterope%CC%81rabilite%CC%8113mars.pdf)
+    - [#4.1: Background on Protocols, Client/Serve, RMI and RPCs (french)](
+    - [#4.2: Services and interoperability (french and english)]
   - Lecture #5: Persistence
-    - [#5: Persistence, JPA, and related tricks](https://github.com/collet/isa-devops/blob/master/ISA/week5-persistence-v02.pdf)
+    - [#5: Persistence, JPA, and related tricks]
   - Lecture #6: Stateful and stateless session beans
-    - [#6: State Wars](https://github.com/collet/isa-devops/blob/master/ISA/week6-stateWars.pdf)
+    - [#6: State Wars]
   - Lecture #7: Interceptors and MOM
-    - [#7: Interceptors and MOM](https://github.com/collet/isa-devops/blob/master/ISA/j2e_plus_plus.pdf)
+    - [#7: Interceptors and MOM]
 
 ### Examples of _good_ architecture reports (FR):
 
