@@ -37,7 +37,7 @@ The whole project relies on an open-source reference implementation of _The Cook
 
 Deliveries are automatically extracted from the _github_ repository of the team. Details are given in the evaluation part of each part (ISA and DEVOPS). See below.
 
-- Monday, February 17th: first architecture report
+- Monday, February 17th, 8:00pm : first architecture report
 
   
 ### Evaluation
