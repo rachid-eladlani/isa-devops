@@ -37,6 +37,14 @@
 
   - [2017](https://github.com/collet/isa-devops/blob/master/ISA/exams/exam_2017.pdf)
   - [2018](https://github.com/collet/isa-devops/blob/master/ISA/exams/exam_2018.pdf)
+  
+## Assignment #1
+
+First Assignment requires you to compile and package the code base of The Cookie Factory. The code base is available [in this repository (develop branch)](https://github.com/collet/4A_ISA_TheCookieFactory).
+
+## Assignment #2
+
+Build an architecture report for the case study.
 
 ## Deliverables
 
