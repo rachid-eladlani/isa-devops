@@ -23,7 +23,7 @@ The whole project relies on an open-source reference implementation of _The Cook
 
 ### Case study description: 
 
-  * to be completed
+  * [Drone Delivery](https://github.com/gmolines/isa-devops/blob/master/DroneDelivery.pdf)
 
 ## Planning 
 
@@ -36,6 +36,9 @@ The whole project relies on an open-source reference implementation of _The Cook
 ### Deliveries & Milestones
 
 Deliveries are automatically extracted from the _github_ repository of the team. Details are given in the evaluation part of each part (ISA and DEVOPS). See below.
+
+- Monday, February 17th: first architecture report
+
   
 ### Evaluation
 
