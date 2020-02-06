@@ -45,13 +45,13 @@ Evaluation is organized as follows:
 
   - _Introduction to Software Architecture_ : https://github.com/collet/isa-devops/blob/master/ISA/README.md
     - Architecture report: 15%
-    - Intermediate demonstration: 10%
-    - Final presentation: 15%
+    - Intermediate demonstration (technical interview): 10%
+    - Final demonstration (technical interview): 15%
     - Project (code + report): 20% (deadline: TBD)
     - Final exam: 40%
   - _DevOps & Continuous Testing_ : https://github.com/collet/isa-devops/blob/master/DevOps/README.md
-	- Intermediate demonstration: 20%	
-	- Final presentation: 20%
+	- Intermediate demonstration (technical interview): 20%	
+	- Final demonstration (technical interview): 20%
 	- Project (code + report): 20% (deadline: TBD)
 	- Final exam: 40%
 
