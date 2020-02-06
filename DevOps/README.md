@@ -1,4 +1,4 @@
-# DevOps & Continuous Testing (2018-19)
+# DevOps & Continuous Testing (2019-20)
 
 ## Teaching Staff
 
