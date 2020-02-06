@@ -20,7 +20,7 @@
 
 ## Assignment #1
 
-First Assignment requires you to compile and package the code base of The Cookie Factory. The code base is available [in this zip file](https://github.com/collet/isa-devops/blob/master/DevOps/TDs/tcf_td1.zip).
+First Assignment requires you to compile and package the code base of The Cookie Factory. The code base is available [in this repository (develop branch)](https://github.com/collet/4A_ISA_TheCookieFactory).
 
 ## Assignment #2
 Independant local compilation of two components
