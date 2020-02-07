@@ -10,8 +10,8 @@
 ## Lecture Material
 
   - Lecture #1: Introduction to ISA
-    - [#1.1: Introduction]
-    - [#1.2: N-tiers Architectures]
+    - [#1.1: Introduction] https://github.com/collet/isa-devops/blob/master/ISA/1_1_kickoff-1920.pdf
+    - [#1.2: N-tiers Architectures] https://github.com/collet/isa-devops/blob/master/ISA/1_2_Archi_N_Tiers-1920.pdf
   - Lecture #2: JavaEE, EJB 101 (Dependency Injection, Session and Entity), ORM 101
     - [#2: EJB 101]
   - Lecture #3: Architectural viewpoints
