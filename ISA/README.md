@@ -10,10 +10,10 @@
 ## Lecture Material
 
   - Lecture #1: Introduction to ISA
-    - [#1.1: Introduction]
-    - [#1.2: N-tiers Architectures]
+    - [#1.1: Introduction] https://github.com/collet/isa-devops/blob/master/ISA/1_1_kickoff-1920.pdf
+    - [#1.2: N-tiers Architectures] https://github.com/collet/isa-devops/blob/master/ISA/1_2_Archi_N_Tiers-1920.pdf
   - Lecture #2: JavaEE, EJB 101 (Dependency Injection, Session and Entity), ORM 101
-    - [#2: EJB 101]
+    - [#2: EJB 101] https://github.com/collet/isa-devops/blob/master/ISA/2_javaEE-ejb-orm-1920.pdf
   - Lecture #3: Architectural viewpoints
     - [#3.1: Architectural viewpoints - introduction]
     - [#3.2: Architectural viewpoints - concepts]
@@ -37,6 +37,14 @@
 
   - [2017](https://github.com/collet/isa-devops/blob/master/ISA/exams/exam_2017.pdf)
   - [2018](https://github.com/collet/isa-devops/blob/master/ISA/exams/exam_2018.pdf)
+  
+## Assignment #1
+
+First Assignment requires you to compile and package the code base of The Cookie Factory. The code base is available [in this repository (develop branch)](https://github.com/collet/4A_ISA_TheCookieFactory).
+
+## Assignment #2
+
+Build an architecture report for the case study.
 
 ## Deliverables
 
