@@ -14,12 +14,11 @@
     - [#1.2: N-tiers Architectures] https://github.com/collet/isa-devops/blob/master/ISA/1_2_Archi_N_Tiers-1920.pdf
   - Lecture #2: JavaEE, EJB 101 (Dependency Injection, Session and Entity), ORM 101
     - [#2: EJB 101] https://github.com/collet/isa-devops/blob/master/ISA/2_javaEE-ejb-orm-1920.pdf
-  - Lecture #3: Architectural viewpoints
-    - [#3.1: Architectural viewpoints - introduction]
-    - [#3.2: Architectural viewpoints - concepts]
-  - Lecture #4: From Client/Server to Web Services
-    - [#4.1: Background on Protocols, Client/Serve, RMI and RPCs (french)](
-    - [#4.2: Services and interoperability (french and english)]
+  - Lecture #3: C/S and Architectural viewpoints
+    - [#3.1: Background on Protocols, Client/Serve, RMI and RPCs (french)] https://github.com/collet/isa-devops/blob/master/ISA/3_1_IntroR%C3%A9seauApplicatifRMI-RPC-Protocole.pdf
+    - [#3.2: Architectural viewpoints] https://github.com/collet/isa-devops/blob/master/ISA/3_2_Viewpoints.pdf
+  - Lecture #4: Web Services
+    - [#4: Services and interoperability]
   - Lecture #5: Persistence
     - [#5: Persistence, JPA, and related tricks]
   - Lecture #6: Stateful and stateless session beans
