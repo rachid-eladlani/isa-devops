@@ -18,7 +18,7 @@
     - [#3.1: Background on Protocols, Client/Serve, RMI and RPCs (french)] https://github.com/collet/isa-devops/blob/master/ISA/3_1_IntroR%C3%A9seauApplicatifRMI-RPC-Protocole.pdf
     - [#3.2: Architectural viewpoints] https://github.com/collet/isa-devops/blob/master/ISA/3_2_Viewpoints.pdf
   - Lecture #4: Web Services
-    - [#4: Services and interoperability]
+    - [#4: Services and interoperability] https://github.com/collet/isa-devops/blob/master/ISA/4_servicesEtInteroperabilite-6mars.pdf
   - Lecture #5: Persistence
     - [#5: Persistence, JPA, and related tricks]
   - Lecture #6: Stateful and stateless session beans
