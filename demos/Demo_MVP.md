@@ -39,7 +39,7 @@
 
 You have to demonstrate a single product, covering both ISA & DevOps course contents. This single demo will be evaluated according to these two dimensions, leading to two different marks. *However*, the two courses expect the project to respect the _PolyDiploma_ call for bids and implement features related to this project.
 
-### French version as published on the slack
+### French version
 
 * Partie ISA pour le MVP nous attendons que vous dérouliez un scénario sur la partie du coeur de l'application qui va d'un client vers un service externe minimum en passant par plusieurs composants EJBs (au moins 2) et si possible qui interagissent entre eux (l'interaction interne entre 2 EJBs sera valorisée). Pour la partie techno vous pouvez avoir un client minimaliste qui se contente de récupérer les parametres des services et de les appeler et pour le service externe mocker un Service .net en partant du code de TCF. Si l'imlémentation .net vous pose trop de difficultés; attaquez au min le meme service externe que TCF.
 
