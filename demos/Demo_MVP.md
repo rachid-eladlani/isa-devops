@@ -1,6 +1,6 @@
 # First Demonstration
 
-  * Date: 22.03.19
+  * Date: 20.03.20
   * Examiners: Philippe Collet (PC), Laureen Ginier (LG), Guilhem Molines (GM), Anne-Marie Pinna-Déry (AMD),
 
 ## Planning
