@@ -12,28 +12,32 @@
     
   * The evaluation will take into account the fact that teams presenting in the afternoon have more time to produce and prepare their demo.
 
-| Timeslot      | Room    | 
-|---------------|---------|
-| 09:00 - 09:30 | Team   | 
-| 09:30 - 10:00 | Team   | 
-| 10:00 - 10:30 | Team   | 
+| Timeslot      | Jury 1  et 2 | 
+|---------------|---------------|
+| 08/00 - 08:30 | Team  B      | 
+| 08:30 - 09:00 | Team  C      | 
 
-| Timeslot      | Room   |
-|---------------|---------|
-| 10:45 - 11:15 | Team   | 
-| 11:15 - 11:45 | Team   |
-| 11:45 - 12:15 | Team   |
+| Timeslot      | Jury 1  | 
+|---------------|---------| 
+| 09:15 - 09:45 | Team  L | 
+| 09:45 - 10:15 | Team  K |
+| 10:15 - 10:45 | Team  G | 
+| 10:45 - 11:00 | Pause   | 
+| 11:00 - 11:30 | Team  H |
+| 11:30 - 12:00 | Team  A |
+| 12:00 - 12:30 | Team  E |
 
-| Timeslot      | Room   |
+| Timeslot      | Jury 2  | 
 |---------------|---------|
-| 14:00 - 14:30 | Team   | 
-| 14:30 - 15:00 | Team  |
-| 15:00 - 15:30 | Team  |
+| 09:15 - 09:45 | Team  I | 
+| 09:45 - 10:15 | Team  J |  
+| 10:15 - 10:45 | Team  M | 
+| 10:45 - 11:00 | Pause   | 
+| 11:00 - 11:30 | Team  N | 
+| 11:30 - 12:00 | Team  F |
+| 12:00 - 12:30 | Team  D |
 
-| Timeslot      | Room   |
-|---------------|---------|
-| 15:45 - 16:15 | Team  | 
-| 16:15 - 16:45 | Team  |
+
 
 ## Expectations
 
