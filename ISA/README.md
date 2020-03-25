@@ -20,7 +20,9 @@
   - Lecture #4: Web Services
     - [#4: Services and interoperability] https://github.com/collet/isa-devops/blob/master/ISA/4_servicesEtInteroperabilite-6mars.pdf
   - Lecture #5: Persistence
-    - [#5: Persistence, JPA, and related tricks]
+    - [#5.1 : Persistence and JPA] https://github.com/collet/isa-devops/blob/master/ISA/5_persistence-part1-1920.pdf (video: https://unspod.unice.fr/video/7141-persistance-1-introduction-to-software-architecture-polytech-nice-sophia-si4/ )
+    - [#5.2 : Persistence chapter of the cookie factory] https://github.com/collet/4A_ISA_TheCookieFactory/blob/develop/chapters/Persistence.md
+    - [#5.3 : Persistence tricks] https://github.com/collet/isa-devops/blob/master/ISA/5_persistence-part2-1920.pdf (video: https://unspod.unice.fr/video/7142-persistance-2-introduction-to-software-architecture-polytech-nice-sophia-si4/ )
   - Lecture #6: Stateful and stateless session beans
     - [#6: State Wars]
   - Lecture #7: Interceptors and MOM
