@@ -27,7 +27,7 @@ The whole project relies on an open-source reference implementation of _The Cook
 
 ## Planning 
 
-![Planning](https://github.com/collet/isa-devops/blob/master/planning.png)
+![Planning](https://github.com/collet/isa-devops/blob/master/planning-covid.png)
 
   - Blue sessions are related to _ISA_
   - Green sessions are related to _DevOps_
@@ -39,7 +39,6 @@ Deliveries are automatically extracted from the _github_ repository of the team.
 
 - Monday, February 17th, 8:00pm : first architecture report
 
-  
 ### Evaluation
 
 Even if the case study is shared and the course merged, this is administratively talking two different courses. As a consequence, the evaluation must be separated.
@@ -49,15 +48,14 @@ Evaluation is organized as follows:
   - _Introduction to Software Architecture_ : https://github.com/collet/isa-devops/blob/master/ISA/README.md
     - Architecture report: 15%
     - Intermediate demonstration (technical interview): 10%
-    - Final demonstration (technical interview): 15%
-    - Project (code + report): 20% (deadline: TBD)
-    - Final exam: 40%
+    - Final demonstration (technical interview): 30%
+    - Individual question (during tech interview): 15%
+    - Project (code + report): 30% (deadline: May 10th, 6pm)
   - _DevOps & Continuous Testing_ : https://github.com/collet/isa-devops/blob/master/DevOps/README.md
-	- Intermediate demonstration (technical interview): 20%	
-	- Final demonstration (technical interview): 20%
-	- Project (code + report): 20% (deadline: TBD)
-	- Final exam: 40%
-
+    - Intermediate demonstration (technical interview): 20%	
+    - Final demonstration (technical interview): 35%
+    - Individual question (during tech interview): 15%
+    - Project (code + report): 30% (deadline: May 10th, 6pm)
 
 ## Tooling
 
@@ -67,8 +65,3 @@ Evaluation is organized as follows:
   - Containers: Docker
   - Continuous integration: Jenkins
   - Repository: ArtiFactory
-
-
-  
-
-
