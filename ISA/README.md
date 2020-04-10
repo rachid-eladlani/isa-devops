@@ -72,13 +72,17 @@ Non-exhaustive list of common pitfalls to avoid in your work:
   - Interfaces that relies on _ids_ and primitive objects (_e.g._, String, Integers) instead of business objects.
 
 
-### Final Project Delivery (deadline: TBD)
+### Final Project Delivery (deadline: May 10, 6pm)
 
   - you need to deliver according to the instructions of the DevOps part +
-  - at the root, you should have a `components.pdf` file representing your component diagram
-  - at the root, you should have a `archi.md` file representing your architecture report:
-      - Overview: a paragraph on what is provided (how many CLIs, coverage of the functionalities, etc.)
-      - Components: additional explanations over the components organization as shown in `components.pdf`
-      - Pros: Strong points of your architecture
-      - Cons: Weak points of your architecture 
+  - You must deliver a PDF file at the root of your main repository on Github, named finalreport.pdf. There is no page limits but concision is an evaluation criteria (and your report should be ~10 pages long). You must be able to defend the strengths of your architecture, as well as discuss its limitations and evolution capabilities. You can base your defense on the evolution of          
+      - the component diagram; 
+      - interfaces;
+      - class diagram;
+      - the implementation and/or design choice of persistence, interceptors, the three types of components (Stateful, stateless, oriented messages)
+  - Each artefact must be justified with respect to its relevance in your architecture.
   - the deliverable for both ISA and DevOps will be extracting using a specific script. Make sure your git repository tag is correct (see DevOps part as well).
+  
+  
+  
+  
