@@ -55,7 +55,7 @@ Evaluation is organized as follows:
     - Intermediate demonstration (technical interview): 20%	
     - Final demonstration (technical interview): 35%
     - Individual question (during tech interview): 15%
-    - Project (code + report): 30% (deadline: May 10th, 6pm)
+    - Project (code): 30% (deadline: May 10th, 6pm)
 
 ## Tooling
 
