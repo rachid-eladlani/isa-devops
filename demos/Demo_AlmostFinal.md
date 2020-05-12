@@ -9,11 +9,39 @@
     * 15 minutes for the team, around 30 minutes for the jury (for general and individual questions)
     * Remote
 
-  * Planning:  TBD
+  * Planning:
+  
+| Timeslot      | Jury 1  et 2 | 
+|---------------|--------------|
+| 08:00 - 08:45 | Team  J      |
+| 15:00 - 15:45 | Team  C      |
+
+| Timeslot      | Jury 1  | 
+|---------------|---------| 
+| 09:00 - 09:45 | Team  L | 
+| 09:45 - 10:30 | Team  K |
+| 10:30 - 10:45 | Break   | 
+| 10:45 - 11:30 | Team  G | 
+| 11:30 - 12:15 | Team  H |
+|               |         |
+| 16:00 - 16:45 | Team  A |
+| 16:45 - 17:30 | Team  E |
+
+| Timeslot      | Jury 2  | 
+|---------------|---------|
+| 09:00 - 09:45 | Team  I | 
+| 09:45 - 10:30 | Team  B |  
+| 10:30 - 10:45 | Break   | 
+| 10:45 - 11:30 | Team  M | 
+| 11:30 - 12:15 | Team  N | 
+|               |         |
+| 16:00 - 16:45 | Team  F |
+| 16:45 - 17:30 | Team  D |
+
 
 ## Expectations
 
-You have to demonstrate a single product, covering both ISA & DevOps course contents. This single demo will be evaluated according to these two dimensions, leading to two different marks. *However*, the two courses expect the project to respect the _PolyDiploma_ call for bids and implement features related to this project.
+You have to demonstrate a single product, covering both ISA & DevOps course contents. This single demo will be evaluated according to these two dimensions, leading to two different marks. *However*, the two courses expect the project to respect the _DroneDelivery_ call for bids and implement features related to this project.
 
 Think about demonstrating error cases (e.g., third party service unavailable, network lost, broken test, corrupted JAR, ...) instead of staying in a perfect world. 
 
