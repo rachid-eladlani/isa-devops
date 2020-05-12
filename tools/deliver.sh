@@ -1,23 +1,18 @@
 #!/bin/bash
 
-USR=mosser   # <= Change me
-REPO=main    # <= Change me
-
-TAG=mutant_delivery
-FILE=mutants
-
-#TAG=archi
-#FILE=architecture
+USR=gmolines
+REPO=main
+TAG=final_deliverable
 
 function process() # $1 is team ID (& project directory)
 {
   cd $1
   checkout_tag $TAG
   git_tag_time $TAG
-  exists_file $FILE.pdf
-  extract_file $FILE.pdf ../${FILE}_$1.pdf
+#  exists_file $FILE.pdf
+#  extract_file $FILE.pdf ../${FILE}_$1.pdf
   cd ..
-  rm -rf $1
+#  rm -rf $1
 }
 
 ##### Do not change after this line ######
@@ -52,7 +47,7 @@ function exists_file()  #  $1  is file_name
 function clone_repo()     # $1 is project's ID, $2 is repository's URL
 {
     echo -ne "# Cloning project from remote repository: "
-    git clone $2 $1 > /dev/null 2> /dev/null
+    git clone --recurse-submodules $2 $1  > /dev/null 2> /dev/null
     if [ "$?" = "0" ]; then echo "OK"; else echo "FAILURE"; fi
 }
 
@@ -64,8 +59,8 @@ function main()  # Main loop used ot iterate over all projects
     real_url=`echo $URL | cut -d ';' -f 1 | sed -e "s,#USER#,$USR,g" -e "s,#REPOSITORY#,$REPO,g"`
   	repo=`echo $URL | cut -d ';' -f 1`
   	name=`echo $URL | cut -d ';' -f 2`
-  	id=`echo $repo | cut -d '/' -f 6`
-  	echo -ne "\n####\n## Handling $name [$id]\n####\n"
+  	id=`echo $repo | cut -d '/' -f 5`
+  	echo -ne "\n####\n## Handling $name [$id]\nwith url [$real_url]\n####\n"
     clone_repo $id $real_url
     process $id
   done < urls.txt

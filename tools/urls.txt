@@ -1,0 +1,16 @@
+# Promotion
+https://#USER#@github.com/pns-isa-devops/projet-isa-devops-20-team-a-20.git;IDA
+https://#USER#@github.com/pns-isa-devops/projet-isa-devops-20-team-b-20.git;IDB
+https://#USER#@github.com/pns-isa-devops/projet-isa-devops-20-team-c-20.git;IDC
+https://#USER#@github.com/pns-isa-devops/projet-isa-devops-20-team-d-20.git;IDD
+https://#USER#@github.com/pns-isa-devops/projet-isa-devops-20-team-e-20.git;IDE
+https://#USER#@github.com/pns-isa-devops/projet-isa-devops-20-team-f-20.git;IDF
+https://#USER#@github.com/pns-isa-devops/projet-isa-devops-20-team-g-20.git;IDG
+https://#USER#@github.com/pns-isa-devops/projet-isa-devops-20-team-h-20.git;IDH
+https://#USER#@github.com/pns-isa-devops/projet-isa-devops-20-team-i-20.git;IDI
+https://#USER#@github.com/pns-isa-devops/projet-isa-devops-20-team-j-20.git;IDJ
+https://#USER#@github.com/pns-isa-devops/projet-isa-devops-20-team-k-20.git;IDK
+https://#USER#@github.com/pns-isa-devops/projet-isa-devops-20-team-l-20.git;IDL
+https://#USER#@github.com/pns-isa-devops/projet-isa-devops-20-team-m-20.git;IDM
+https://#USER#@github.com/pns-isa-devops/projet-isa-devops-20-team-n-20.git;IDN
+## That's all folks
