@@ -1,4 +1,4 @@
-# Introduction to Software Architecture & DevOps (2019-20)
+# Introduction to Software Architecture & DevOps (2020-21)
 
 ## Rationale
 
@@ -13,8 +13,12 @@ The whole project relies on an open-source reference implementation of _The Cook
   * [Philippe Collet](collet@i3s.unice.fr), Université Côte d'Azur, CNRS, I3S (co-head, ISA)
   * [Guilhem Molines](guilhem.molines@univ-cotedazur.fr), IBM France Lab, Université Côte d'Azur (co-head, DevOps)
   * [Anne-Marie Pinna-Déry](pinna@unice.fr), Université Côte d'Azur, CNRS, I3S (ISA)
-  * [Laureen Ginier](laureen.ginier@univ-cotedazur.fr), IBM France Lab, Université Côte d'Azur (ISA)
-  * [Salah Dahmoul](Salah.DAHMOUL@univ-cotedazur.fr), Orange, Université Côte d'Azur (DevOps)
+  * Nassim Bounouas (AL 2019), SQUAD/Orange, Université Côte d'Azur (ISA)
+  * Laura Lopez (AL 2020), Greencom Networks, Université Côte d'Azur (ISA)
+  * Nathan Strobbe (AL 2020), TriPica, Université Côte d'Azur (ISA)
+  * [Salah Dahmoul (AL 2017)] (Salah.DAHMOUL@univ-cotedazur.fr), Sequoiasoft, Université Côte d'Azur (DevOps)
+  * Nikita Rousseau (AL 2019), SQUAD/Orange, Université Côte d'Azur (DevOps)
+
 
 ### Specific pages (e.g., lectures material, deliverable contents)
 
@@ -23,11 +27,11 @@ The whole project relies on an open-source reference implementation of _The Cook
 
 ### Case study description: 
 
-  * [Drone Delivery](https://github.com/gmolines/isa-devops/blob/master/DroneDelivery.pdf)
+  * TBD
 
 ## Planning 
 
-![Planning](https://github.com/collet/isa-devops/blob/master/planning-covid.png)
+![Planning](https://github.com/collet/isa-devops/blob/master/planning.png)
 
   - Blue sessions are related to _ISA_
   - Green sessions are related to _DevOps_
@@ -37,7 +41,7 @@ The whole project relies on an open-source reference implementation of _The Cook
 
 Deliveries are automatically extracted from the _github_ repository of the team. Details are given in the evaluation part of each part (ISA and DEVOPS). See below.
 
-- Monday, February 17th, 8:00pm : first architecture report
+- Sunday, February 14th, 8:00pm : first architecture report
 
 ### Evaluation
 
@@ -48,18 +52,18 @@ Evaluation is organized as follows:
   - _Introduction to Software Architecture_ : https://github.com/collet/isa-devops/blob/master/ISA/README.md
     - Architecture report: 15%
     - Intermediate demonstration (technical interview): 10%
-    - Final demonstration (technical interview): 30%
-    - Individual question (during tech interview): 15%
-    - Project (code + report): 30% (deadline: May 10th, 6pm)
+    - Final demonstration (technical interview): 15%
+    - Project (code + report): 20% (deadline: TBD)
+    - Final exam: 40%
   - _DevOps & Continuous Testing_ : https://github.com/collet/isa-devops/blob/master/DevOps/README.md
-    - Intermediate demonstration (technical interview): 20%	
-    - Final demonstration (technical interview): 35%
-    - Individual question (during tech interview): 15%
-    - Project (code): 30% (deadline: May 10th, 6pm)
+    - Intermediate demonstration (technical interview): 20%
+    - Final demonstration (technical interview): 20%
+    - Project (code): 20% (deadline: TBD)
+    - Final exam: 40%
 
 ## Tooling
 
-  - J2E environment: Apache TomEE+
+  - J2E environment: Apache TomEE+ / JDK 8
   - Integration testing: Arquillian
   - .Net development: Mono
   - Containers: Docker
