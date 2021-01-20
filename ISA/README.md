@@ -22,8 +22,8 @@
 ### Examples of _good_ architecture reports (FR):
 
   - 2017: Disloyalty card. [Report #1](https://github.com/collet/isa-devops/blob/master/ISA/reports_examples/2017_1.pdf) [Report #2](https://github.com/collet/isa-devops/blob/master/ISA/reports_examples/2017_2.pdf)
-  - 2019: Graduation ceremony.  
-  - 2020: Drone delivery. 
+  - 2019: Graduation ceremony. [Report #1](https://github.com/collet/isa-devops/blob/master/ISA/reports_examples/2019_1.pdf) [Report #2](https://github.com/collet/isa-devops/blob/master/ISA/reports_examples/2019_2.pdf)
+  - 2020: Drone delivery. [Report #1](https://github.com/collet/isa-devops/blob/master/ISA/reports_examples/2020_1.pdf) [Report #2](https://github.com/collet/isa-devops/blob/master/ISA/reports_examples/2020_2.pdf)
   
 ## Assignment #1
 
