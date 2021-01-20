@@ -16,7 +16,7 @@ The whole project relies on an open-source reference implementation of _The Cook
   * Nassim Bounouas (AL 2019), SQUAD/Orange, Université Côte d'Azur (ISA)
   * Laura Lopez (AL 2020), Greencom Networks, Université Côte d'Azur (ISA)
   * Nathan Strobbe (AL 2020), TriPica, Université Côte d'Azur (ISA)
-  * [Salah Dahmoul (AL 2017)] (Salah.DAHMOUL@univ-cotedazur.fr), Sequoiasoft, Université Côte d'Azur (DevOps)
+  * [Salah Dahmoul (AL 2017)](Salah.DAHMOUL@univ-cotedazur.fr), Sequoiasoft, Université Côte d'Azur (DevOps)
   * Nikita Rousseau (AL 2019), SQUAD/Orange, Université Côte d'Azur (DevOps)
 
 
