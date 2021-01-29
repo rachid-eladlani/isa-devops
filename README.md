@@ -27,7 +27,7 @@ The whole project relies on an open-source reference implementation of _The Cook
 
 ### Case study description: 
 
-  * TBD
+  * https://unice-my.sharepoint.com/:w:/g/personal/philippe_collet_unice_fr/EVtddCGc48ZGuGaSlcLbWCEB2tqDB1ix6_GS4WcpGq7-cw?e=T7nkiN
 
 ## Planning 
 
