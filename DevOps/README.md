@@ -9,7 +9,9 @@
 
 ## Lecture Material
 
-TBD
+   * Week 1: [Devops Overview](https://github.com/collet/isa-devops/blob/master/DevOps/week1_overview_devops_v0.2.pdf)
+
+
 ## Deliverables
 
 ### Final Project Delivery (deadline: May 9th, 6pm)
