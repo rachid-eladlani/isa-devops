@@ -15,7 +15,9 @@
     - 1.1 [Kick-off](https://github.com/collet/isa-devops/blob/master/ISA/1.1_isa_kickoff.pdf)
     - 1.2 [N-tiers architecture / Layered architecture / UML support](https://github.com/collet/isa-devops/blob/master/ISA/1.2_isa_Archi_N_Tiers.pdf)
     - 1.3 [JavaEE / EJB Basics](https://github.com/collet/isa-devops/blob/master/ISA/1.3_isa_javaEE-ejb-partie1.pdf)  [Dependency injection](https://github.com/collet/isa-devops/blob/master/ISA/1.3_isa_javaEE-ejb-partie2.pdf)
-  - Lecture #2: ORM 101
+  - Lecture #2: ORM 101 / Session beans 101
+    - 2.1 [ORM 101](https://github.com/collet/isa-devops/blob/master/ISA/2_1_isa_orm.pdf)
+    - 2.2 [Session beans 101](https://github.com/collet/isa-devops/blob/master/ISA/2_2_isa_sessionBeans.pdf)
   - Lecture #3: C/S and Architectural viewpoints
   - Lecture #4: Web Services
   - Lecture #5: Persistence
