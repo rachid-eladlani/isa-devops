@@ -14,7 +14,7 @@ French only
 
 ## Développement
 
-- **Ou est le setup IntelliJ pour Arquilian ?** Il est la : [https://github.com/collet/4A_ISA_TheCookieFactory/tree/develop/ides/intelliJ](https://github.com/collet/
+- **Ou est le setup IntelliJ pour Arquilian ?** Il est la : [https://github.com/collet/4A_ISA_TheCookieFactory/tree/develop/ides/intelliJ](https://github.com/collet/4A_ISA_TheCookieFactory/tree/develop/ides/intelliJ)
 
 - **Le setup IntelliJ n'a pas l'air de marcher sous Windows (erreur TODO) ?** TODO
 
