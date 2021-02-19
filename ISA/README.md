@@ -19,6 +19,8 @@
     - 2.1 [ORM 101](https://github.com/collet/isa-devops/blob/master/ISA/2_1_isa_orm.pdf)
     - 2.2 [Session beans 101](https://github.com/collet/isa-devops/blob/master/ISA/2_2_isa_sessionBeans.pdf)
   - Lecture #3: C/S and Architectural viewpoints
+  	 - 3.1 [Remoting and C/S](https://github.com/collet/isa-devops/blob/master/ISA/3_1_ISARemote2021.pdf)
+  	 - 3.2 [Architectural viewpoints](https://github.com/collet/isa-devops/blob/master/ISA/3_2_ISAViewpoints2021.pdf) 
   - Lecture #4: Web Services
   - Lecture #5: Persistence
   - Lecture #6: Stateful and stateless session beans
