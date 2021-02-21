@@ -8,6 +8,23 @@ French only
 
 - **Mon équipe n'a pas eu de feedback sur l'aspect X de notre rapport?** On a focalisé le feedback sur les points les plus importants à améliorer pour chaque équipe. Si on n'a pas évoqué un point, c'est que plus de 80% de ce qui est fait est correct. Vous pouvez avancer (et on est toujours la pour répondre à des questions précises)
 
+- **Pensez-vous que modéliser des acteurs secondaires pour gérer le paiement/l'envoie de mails ou de notifications etc. est cohérent dans un diagramme de UC ?**
+En reprenant la définition d'un acteur dans le manuel référence UML : `An actor may be a human, another computer system, or some executable process`. S'il vous semble qu'ils jouent un rôle dans votre système et que modéliser ces acteurs facilite la lecture / compréhension, vous pouvez les ajouter ! 
+
+- **On a du mal à bien comprendre quelle est la différence entre classes et composants ?**
+Dans votre diagramme de classes, vos objets représentent des entités métier. Il s'agit de votre modèle de données métier, ex : customer, cart, etc. qui vous permet également de lier les objets aux informations qui leur sont associées, ex : identifiant, date, nom, mot de passe, etc. 
+En revanche, vos composants sont des briques logicielles qui contiennent de la logique métier nécessaire afin de faire tourner votre système en fonction des contraintes que le sujet vous impose, ex : vérifier un paiement, envoyer des notifications de manière périodique, calculer un montant, etc. Ces composants vont donc réaliser un ensemble d'opérations en manipulant vos objets métier.
+
+- **Est-il nécessaire de développer une webapp (avec JSP, JSF... etc) pour le serveur ? En effet, nous avions dans l'idée que nos utilisateurs utilisaient seulement un client en CLI qui contactait le serveur au travers de web services. Est-il également possible d'utiliser Postman ?**
+La CLI (ex : TCF) est suffisante, l'important ici étant de montrer qu'elle appelle le Web service qui déclenche toutes les interactions entre les composants
+Et vous pouvez commencer par du postman/newman/curl pour vous concentrer sur l'architecture. L'idée est de pouvoir avoir au moins une CLI qui facilite une démo intéressante, pour le MVP et pour le produit final. Le reste peut être du postman/newman/curl. 
+Réfléchissez où il est intéressant d'avoir une CLI élaborée pour des interactions front (des données qui s'affichent, etc.), et peut être pour d'autres interactions front, un script curl/newman peut suffire à juste montrer l'enclenchement d'un scénario qui va ensuite se démontrer par : des logs au fur et à mesure du passage dans les session Beans, des logs sur les services externes en .NET ou des retours vers la CLI principale.
+
+- **Comment doit-on traiter les id des objets, est-ce mieux de les faire en String ou en Int en général ?** 
+Les identifiants des objets sont là pour pouvoir les distinguer de manière unique, un mélange de lettres et chiffres est généralement conseillé pour ne pas se restreindre et garder des ids de taille raisonnable via des String. En général une façon simple de procéder est de générer des UUID. 
+ Pour ce projet, n'ayant pas de contraintes particulières, vous pouvez également utiliser des Int/Long pour vos ids si cela vous convient mieux. L'essentiel est de garantir l'unicité de vos objets le plus facilement possible. Pensez simple afin de ne pas compliquer la manipulation et les vérifications liées à ces ids.
+
+
 ## DevOps
 
 
