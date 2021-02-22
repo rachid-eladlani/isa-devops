@@ -74,7 +74,7 @@ org.apache.cxf.interceptor.Fault: Could not send Message.
 
 Ce test nécessite de pouvoir accèder à la banque, il faut donc la démarrer avant de lancer les tests.
 
-### Je suis sur Windows et lors de l'exécution des tests arquillian, le test "performInternalCucumberOperations" est échoue avec un message du type "Malformed \uxxx encoding" ou "C:\Users\XXXX\XXXX\4A_ISA_TheCookieFactory\j2e\YYYY	argetcucumber-report"
+### Je suis sur Windows et lors de l'exécution des tests arquillian, le test "performInternalCucumberOperations" échoue avec un message du type "Malformed \uxxx encoding" ou "C:\Users\XXXX\XXXX\4A_ISA_TheCookieFactory\j2e\YYYY	argetcucumber-report"
 
 Il s'agit d'une erreur lors de la génération du rapport des tests cucumber. Ces tests sont déployés et exécutés dans un serveur d'application (tomee) au moyen d'`Arquillian` et de `Cukespace`. Ce dernier présente un bug quelque soit la version que vous utilisez depuis maven central. Un contributeur a proposé un correctif qui n'a pas été mergé (et donc pas release sur maven central).
 
