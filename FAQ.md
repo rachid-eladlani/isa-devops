@@ -41,11 +41,52 @@ Dans les deux cas, on peut préparer le tout par un plan de build dédié !
 
 ## Développement
 
-### Ou est le setup IntelliJ pour Arquilian ?
+### Où est le setup IntelliJ pour Arquilian ?
 Il est la : [https://github.com/collet/4A_ISA_TheCookieFactory/tree/develop/ides/intelliJ](https://github.com/collet/4A_ISA_TheCookieFactory/tree/develop/ides/intelliJ)
 
-### Le setup IntelliJ n'a pas l'air de marcher sous Windows (erreur TODO) ?
-TODO
+### Je n'arrive à lancer les tests arquillians sur Intellij?
+
+ - La première chose à vérifier dans la trace : les tests sont-ils bien exécutés avec Java 8 ?
+
+#### Erreur liée à la version de tomee :
+
+```
+SEVERE: Unable to deploy collapsed ear in war StandardEngine[Tomcat].StandardHost[localhost].StandardContext[/7605c1c7-e3eb-486d-b585-8352ad982b10]
+org.apache.xbean.recipe.ConstructionException: Error calling instance factory method: public org.apache.openejb.core.mdb.BaseMdbContainer org.apache.openejb.core.mdb.MdbContainerFactory.create()
+```
+
+La version de tomee embedded n'est certainement pas la bonne, se réferer au setup intellij et à la manière de forcer la version `7.0.2`.
+
+#### Erreur liée à l'agent EJB
+
+```
+org.apache.openejb.OpenEJBRuntimeException: javax.transaction.NotSupportedException: Nested Transactions are not supported
+```
+
+Cette erreur est liée à une mauvaise configuration de l'agent openejb. Se référer au setup intellij en faisant attention au path utilisé selon si c'est le projet `j2e` qui est ouvert ou la racine `4A_ISA_TheCookieFactory`.
+
+#### Erreur uniquement du job integrationBetweenCustomersAndOrders :
+
+```
+WARNING: Interceptor for {http://localhost:9090}WebClient has thrown exception, unwinding now
+org.apache.cxf.interceptor.Fault: Could not send Message.
+```
+
+Ce test nécessite de pouvoir accèder à la banque, il faut donc la démarrer avant de lancer les tests.
+
+### Je suis sur Windows et lors de l'exécution des tests arquillian, le test "performInternalCucumberOperations" est échoue avec un message du type "Malformed \uxxx encoding" ou "C:\Users\XXXX\XXXX\4A_ISA_TheCookieFactory\j2e\YYYY	argetcucumber-report"
+
+Il s'agit d'une erreur lors de la génération du rapport des tests cucumber. Ces tests sont déployés et exécutés dans un serveur d'application (tomee) au moyen d'`Arquillian` et de `Cukespace`. Ce dernier présente un bug quelque soit la version que vous utilisez depuis maven central. Un contributeur a proposé un correctif qui n'a pas été mergé (et donc pas release sur maven central).
+
+Pour corriger le problème, il faut récupérer la version du contributeur, builder en local le core (les tests des exemples sont en erreur), installer `cukespace-core 1.6.8-SNAPSHOT` dans votre repository maven local et changer la version dans le pom.xml du projet `j2e`.
+
+```
+$ git clone https://github.com/misterul/cukespace.git 
+$ cd cukespace
+$ mvn install -pl core  -am
+```
+
+Dans le pom.xml de j2e il faut remplacer : `<versions.cukespace>1.6.5</versions.cukespace>` par la version maintenant disponible dans votre repository maven : `<versions.cukespace>1.6.8-SNAPSHOT</versions.cukespace>`
 
 ### Le choix des technos est-il imposé concernant les modules externes ? 
 oui (aka .Net pour la banque)
