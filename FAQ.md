@@ -29,7 +29,15 @@ Les identifiants des objets sont là pour pouvoir les distinguer de manière uni
 
 ## DevOps
 
+### Nous avons du mal à lancer plusieurs modules J2E sur TomEE :quand on lance un module sur TomEE, il n'est pas possible d'en lancer un deuxième sur la même adresse apparemment. Serait-il possible de compiler/lancer plusieurs modules J2E ensemble sur TomEE mais également indépendamment ? S'agit-il d'une configuration de Tomee Maven Plugin ?
+Comme c'est un peu expliqué dans https://github.com/collet/4A_ISA_TheCookieFactory/blob/develop/chapters/Architecture.md le setup de TCF est simplifié en utilisant une version embarqué (embedded) de Tomee. C'est pratique pour exécuter des tests par exemple, mais ce n'est pas le bon setup pour laisser le serveur up et déployer/re-déployer. 
+Avec un tomee:run, le plugin maven a récupéré un tomee complet, lance le serveur à la volée en lui passant en argument un package deployable (e.g., war, ear... ), et un seul. C'est un raccourci. Si vous avez plusieurs War, vous êtes coincés avec ce setup.
+Vous pouvez soit :
 
+- regarder comment faire un EAR (une archive faite pour en assembler plusieurs) à partir de vos modules et faire le tomee:run avec cet EAR : on prépare une seule application qui contient plusieurs web services et le raccourci fonctionne.
+- ou installer un tomee "lourd" séparé (il a des scripts pour démarrer, se stopper...), et faire des deploy sur ce serveur, soit par des commandes tomee:deploy ou simplement en copiant les war dans le bon répertoire (que tomee surveille continuellement et charge automatiquement tout nouveau module).
+
+Dans les deux cas, on peut préparer le tout par un plan de build dédié !
 
 ## Développement
 
