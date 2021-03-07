@@ -95,7 +95,42 @@ oui (aka .Net pour la banque)
 oui
 
 ### Est-il fortement recommandé d'utiliser les mêmes technos que CookieFactory ?
-oui, c’est même pour ça qu’on l’a écrit !
+oui, c’est même pour ça qu’on l’a écrit ! C'est valable pour les versions de framework (comme JUnit) aussi. Si vous avez le même setup que TCF, c'est une source d'erreurs en moins pour votre projet.
+
+### Quelles sont les contraintes non négociables sur l'architecture ?
+
+- Les CLI en front dialoguent uniquement sous forme de Web Services SOAP avec le serveur d'application J2E
+- Le serveur d'application J2E dialogue uniquement en REST avec les services externes (comme la banque en .NET que vous pouvez récupérer)
+
+Vous êtes attendus sur les choix d'architecture dans la décomposition fonctionnelle et la responsabilisation des composants, pas sur les implications de tel ou tel style d'architecture de services (c'est le cours SOA de 5A qui s'occupe de cela, il y a déjà bien assez à faire ici, notamment à vous faire monter en compétences sur une architecture dans laquelle tout n'est pas REST par défaut...)
+
+### Comment faire un WebService en SOAP avec J2E ?
+
+La procédure est décrite ici : [https://github.com/collet/4A_ISA_TheCookieFactory/blob/develop/chapters/Exposing_SOAP.md#invoking-a-web-service-from-a-java-client](https://github.com/collet/4A_ISA_TheCookieFactory/blob/develop/chapters/Exposing_SOAP.md#invoking-a-web-service-from-a-java-client)
+
+Vous pouvez récupérer le WSDL directement depuis tomee et générer les stubs dans Intellij pour les réutiliser dans le client.
+
+
+### J'ai des erreurs dans l'injection de dépendances `Unresolved ejb reference` au démarrage de tomee et / ou `java.lang.nullpointerexception` lors de l'appel client
+
+Dans TCF, les webservices contiennent des dépendances d'injections au moyen de @EJB, par exemple CustomerFinder injecté dans CartWebServiceImpl.
+
+CustomerFinder est l'interface sur laquelle est aposée l'annotation  @Local ([Declares the local business interface(s) for a session bean](https://docs.oracle.com/javaee/7/api/javax/ejb/Local.html)) et est implémentée par la classe CustomerRegistryBean. On pourrait injecter directement CustomerRegistryBean  en y aposant @LocalBean (EJB >3.1) mais ce n'est pas le but ici puisqu'on veut demander à J2E d'injecter un bean qui implèmente une interface métier sans  préciser l'implémentation (et si on souhaite la préciser on préférera @EJB(name=x) comme décrit dans [le chapitre dédié aux composants métiers](https://github.com/collet/4A_ISA_TheCookieFactory/blob/develop/chapters/BusinessComponents.md).
+
+Check list pour les problèmes d'injection :
+
+- ai-je bien annoté @EJB l'attribut qui fait office d'interface requise ?
+- ai-je bien annoté correctement l'interface ?
+- ai-je bien annoté correctement le composant implémentant (= fournissant) l'interface (par @SessionBean par exemple) ?
+
+### J'ai une erreur `java.lang.ClassNotFoundException: javax.xml.bind.JAXBException` quand j'exécute dans IntelliJ
+
+La librairie JAXB permet de faire une association classe <-> fichier XML par un jeu de sérialisation / désérialisation. La JEP320  proposait la suppression de JEE et de CORBA du JDK, ce qui provoque en java 9 et 10 la dépréciation de ces composants et leur disparition en Java 11.
+
+Moralité de l'histoire si vous avez cette trace dans votre stack-trace toute rouge, avant de partir dans de la plomberie en profondeur, pensez à regarder la toute première ligne qui elle est grise et vous donne le détail sur comment intellij exécute votre commande. Si c'est une exécution en Java 11 (et pas Java 8), c'est l'origine de l'erreur.
+
+Pour rappel : `File -> Project Structure... -> Project -> Project SDK` pour changer le SDK du projet
+
 
 ## Méthode
 
@@ -106,6 +141,12 @@ NON. S'il est raisonnable que certains fassent un setup d'exploration de telle o
    - Il est important d’y aller incrémentalement. Faire un module qui contient une classe toute bête, sans main, sans web service, sans persistence, sans gadget, avec juste une méthode qui affiche un message. Et à côté, un test qui l’invoque. Juste ça déjà c’est pas mal, ça permet de poser les répertoires au bon endroit, d’écrire un pom, de voir que ça marche sur les machines de tout le monde.
    - Puis pareil pour un deuxième, qui dépend du premier
    - En essayant si possible d’écrire les poms à la main plutôt que d’utiliser les wizard d’IntelliJ qui vous génèrent plein de trucs pas toujours simples à comprendre et souvent inutiles.
+
+### Est-ce une bonne idée de construire plusieurs EJB dans notre backend sans avoir de CLI ou de tests partant du "front" ?
+
+Non. Le meilleur moyen de vérifier que vos injections entre composants sont corrects est d'exécuter des scénarios (par la CLI et/ou pas des tests) qui traversent ces composants (voir le point précédent sur le coté fortement incrémental de l'architecture).
+
+La CLI est attendu pour rendre la démo facile à faire, les tests pour que la partie DevOps soit démontrée (et pour que vous ayez confiance dans ce que vous développez et livrez).
 
 ### Au niveau du backlog, doit-on reproduire le même schema qu'en PS7 ? C'est à dire jusqu'au Poker Sizing ?
 Ce n'est pas obligatoire et cela ne sera pas évalué. Faites ce qui est au bon niveau de granularité pour piloter le développement progressif des fonctionnalités et la répartition des tâches dans l'équipe.
