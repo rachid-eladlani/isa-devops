@@ -131,6 +131,8 @@ Moralité de l'histoire si vous avez cette trace dans votre stack-trace toute ro
 
 Pour rappel : `File -> Project Structure... -> Project -> Project SDK` pour changer le SDK du projet
 
+### J'ai une erreur de org.apache.cxf.interceptor.Fault: null while invoking public abstract void ...addItemToCustomerCart(....entities.Item) throws ...UnknownCustomerException with params [John, 23xSEASON]. Je pense que le problème viens du fait que les webservices ne partage pas leurs beans (dans ce cas le bean CustomerRegistrationBean (Stateful)) mais je ne sais pas comment le résoudre
+
 
 ## Méthode
 
